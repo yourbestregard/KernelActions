@@ -18,10 +18,10 @@
       "kpimg_link": ""
     },
     "kernelsu": {
-      "enable": false,
-      "setupLink": "",
-      "setupArg": "",
-      "setupName": "",
+      "enable": true,
+      "setupLink": "https://raw.githubusercontent.com/DPR-MoonWake/RKSU/refs/heads/susfs-rksu-master/kernel/setup.sh",
+      "setupArg": "main",
+      "setupName": "KernelSU",
       "needPatch": false,
       "susfsLink": ""
     },
