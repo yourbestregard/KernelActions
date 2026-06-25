@@ -9,7 +9,10 @@
       "repo": "https://github.com/yourbestregard/android_kernel_xiaomi_ginkgo",
       "branch": "LA.UM.9.1.r1-08100-SMxxx0.0"
     },
-    "use_dtb": true,
+    "output_image": "Image",
+    "use_python2": false,
+    "additional_script_link": "disabled",
+    "additional_post_script_link": "disabled",
     "kp": {
       "use": false,
       "kpimg_link": ""
@@ -34,6 +37,7 @@
     "params": {
       "ARCH": "arm64",
       "CC": "clang-AOSP/bin/clang",
+      "KCFLAGS": "",
       "build_out": "Image",
       "externalCommand": {
         "KBUILD_BUILD_HOST": "t.me/azmunaashome.",
@@ -55,14 +59,7 @@
         "LLVM_DIS": "clang-AOSP/bin/llvm-dis"
       }
     },
-    "image": {
-      "use": true,
-      "imageUrl": "https://github.com/yourbestregard/KernelActions/releases/download/cloud/boot.img",
-      "imageName": "boot.img"
-    },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
       "repo": "https://github.com/FlopKernel-Series/AnyKernel3-trinket",
       "branch": "floppy-reborn"
     }
