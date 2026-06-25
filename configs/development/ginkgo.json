@@ -4,7 +4,7 @@
       "device": "ginkgo",
       "vendor": "xiaomi",
       "name": "bimasakti-sixteen",
-      "defconfig": "defconfig",
+      "defconfig": "vendor/sixteen_defconfig",
       "extraConfig": "",
       "repo": "https://github.com/yourbestregard/android_kernel_xiaomi_ginkgo",
       "branch": "LA.UM.9.1.r1-08100-SMxxx0.0"
