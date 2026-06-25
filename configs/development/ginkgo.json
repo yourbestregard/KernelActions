@@ -15,14 +15,12 @@
       "kpimg_link": ""
     },
     "kernelsu": {
-      "kp": {
-         "enable": true,
-         "setupLink": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh",
-         "setupArg": "v3.1.0-legacy-susfs",
-         "setupName": "KernelSU-Next",
-         "needPatch": true,
-         "susfsLink": "https://raw.githubusercontent.com/wodanesdag/susfs4ksu/refs/heads/non-gki/kernel_patches/KernelSU/susfs-v2.0.0_kernelsu-next-legacy.patch"
-        }
+      "enable": true,
+      "setupLink": "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh",
+      "setupArg": "v3.1.0-legacy-susfs",
+      "setupName": "KernelSU-Next",
+      "needPatch": true,
+      "susfsLink": "https://raw.githubusercontent.com/wodanesdag/susfs4ksu/refs/heads/non-gki/kernel_patches/KernelSU/susfs-v2.0.0_kernelsu-next-legacy.patch"
     },
     "toolchains": [
       {
@@ -36,6 +34,7 @@
     "params": {
       "ARCH": "arm64",
       "CC": "clang-AOSP/bin/clang",
+      "build_out": "Image",
       "externalCommand": {
         "KBUILD_BUILD_HOST": "t.me/azmunaashome.",
         "KBUILD_BUILD_USER": "yourbestregard",
