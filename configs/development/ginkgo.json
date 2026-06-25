@@ -3,7 +3,7 @@
     "kernelSource": {
       "device": "ginkgo",
       "vendor": "xiaomi",
-      "name": "bimasakti-sixty",
+      "name": "bimasakti-sixteen",
       "defconfig": "defconfig",
       "extraConfig": "",
       "repo": "https://github.com/yourbestregard/android_kernel_xiaomi_ginkgo",
