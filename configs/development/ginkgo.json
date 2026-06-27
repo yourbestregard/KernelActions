@@ -27,7 +27,7 @@
     },
     "toolchains": [
       {
-      "repo": "https://gitlab.com/DR-KernelArchive/clang/r547379",
+      "repo": "https://gitlab.com/DR-KernelArchive/clang/r487747c",
       "branch": "master",
       "name": "clang-AOSP",
       "binPath": ["/bin"]
